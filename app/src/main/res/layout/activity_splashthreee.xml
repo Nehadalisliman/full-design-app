@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashthreee">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="411dp"
+        android:layout_height="700dp"
+        android:foreground="@drawable/onboarding_image"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutee"
+        android:layout_width="400dp"
+        android:layout_height="751dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="350dp"
+            android:layout_height="163dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="420dp"
+            android:text="يحتوي التطبيق على توافقات باغة - تاتش - شاشات - اسكرينات - جرابات - بطاريات - IC - منفذ الشحن - بصمات - فلاتة شحن"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:foreground="@drawable/emptycircle"
+                android:layout_marginRight="15dp"
+                />
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:foreground="@drawable/emptycircle"
+                android:layout_marginRight="15dp"
+                />
+            <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:foreground="@drawable/circlesold"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="866dp"
+        android:contextClickable="true"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/buttonnextwo"
+            android:layout_width="220dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="750dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="nextone"
+            android:textColor="@color/white"
+            android:text="Start Now"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

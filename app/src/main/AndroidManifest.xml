@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Allatwo"
+        tools:targetApi="31" >
+        <activity
+            android:name=".splashtwo"
+            android:exported="false" />
+        <activity
+            android:name=".splashone"
+            android:exported="false" />
+        <activity
+            android:name=".logoscreen"
+            android:exported="false" />
+        <activity
+            android:name=".shroot"
+            android:exported="false" />
+        <activity
+            android:name=".shakawy"
+            android:exported="false" />
+        <activity
+            android:name=".knowmore"
+            android:exported="false" />
+        <activity
+            android:name=".contus"
+            android:exported="false" />
+        <activity
+            android:name=".numbersthmk"
+            android:exported="false" />
+        <activity
+            android:name=".sugtwafk"
+            android:exported="false" />
+        <activity
+            android:name=".moddel"
+            android:exported="false" />
+        <activity
+            android:name=".marka"
+            android:exported="false" />
+        <activity
+            android:name=".screone"
+            android:exported="false" />
+        <activity
+            android:name=".tawaf"
+            android:exported="false" />
+        <activity
+            android:name=".sdbar"
+            android:exported="false" />
+        <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".loginn"
+            android:exported="false" />
+        <activity
+            android:name=".crenewacc"
+            android:exported="false" />
+        <activity
+            android:name=".splashthreee"
+            android:exported="false" />
+        <activity
+            android:name=".splatwo"
+            android:exported="false" />
+        <activity
+            android:name=".splone"
+            android:exported="false" />
+        <activity
+            android:name=".logo"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

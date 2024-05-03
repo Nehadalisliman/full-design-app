@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shroot">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/topblkrec"
+            />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="شروط واحكام"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView03"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="35dp"
+            android:foreground="@drawable/back"  />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp">
+
+            <ImageButton
+                android:id="@+id/imageButton04"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/logo"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="20dp"
+                android:text="يتيح لك التطبيق معرفة جميع التوافقات واقتراح توافقات جديدة في حالة عدم تواجدها في التطبيق"
+                android:textAlignment="center"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginRight="20dp"
+                android:text="في حالة اردت البحث عن توافق معين:"
+                android:textAlignment="textEnd"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginRight="20dp"
+                android:text="1 - ادخل على خانة توافقات من الصفحة الرئيسية."
+                android:textAlignment="center"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginRight="20dp"
+                android:text="2 - اختر من الاصناف النوع الذي تريد معرفة التوافق فيه."
+                android:textSize="21sp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
